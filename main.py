@@ -6,7 +6,7 @@ app = FastAPI()
 # Root endpoint
 @app.get("/")
 def read_root():
-    return {"message": "Hello, World! How are you harsha"}
+    return {"message": "Hello, World! How are you guys?"}
 
 # Example of a POST endpoint
 @app.post("/submit")
