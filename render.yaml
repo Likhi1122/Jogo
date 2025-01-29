@@ -1,0 +1,11 @@
+# Exported from Render on 2025-01-29T03:21:24Z
+services:
+- type: web
+  name: Likitha-
+  runtime: python
+  repo: https://github.com/HarshaSatyavardhan/Likitha-
+  plan: free
+  region: singapore
+  buildCommand: pip install -r requirements.txt
+  startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+version: "1"
